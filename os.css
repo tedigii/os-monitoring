@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(60, 56, 56);
+}
+#head{
+    color: #11e311;
+    text-shadow:lime 1px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn{
+    color: #11e311;
+    text-shadow:lime 1px 0 5px;
+    background-color: rgb(60, 56, 56);
+    width: 150px;
+    height: 55px;
+    
+}
+h1:hover, p:hover ,#btn:hover{
+    color: rgb(114, 120, 126);
+    text-shadow:rgb(0, 0, 0) 1px 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+#container{
+    background-color: #11e311;
+    font-size: 20px;
+    padding:10px ;
+    margin-top: 5px;
+    
+}
+.wrapdiv{
+      display: flex;        
+  flex-wrap: wrap;       
+  gap: 10px;             
+  align-items: center;  
+  margin-left: 10px;    
+  border: 3px solid #046a26; 
+  padding: 5px;
+  border-radius: 5px;
+}
